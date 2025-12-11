@@ -3,7 +3,7 @@
 logandmetadir="/Library/Logs/Microsoft/IntuneScripts/"
 log="$logandmetadir/cyberark_agent-install.log"
 scriptname="CyberArk Agent Install"
-securetoken="8675309"
+securetoken="######"
 company="COMPANY"
 
 if [ -d $logandmetadir ]; then
@@ -87,4 +87,5 @@ sudo /private/tmp/epmagent/Install\ CyberArk\ EPM.app/Contents/MacOS/CyberArk\ E
 
 echo "Cleaning up..."
 rm -rf "/tmp/epmagent" "/tmp/epmagent.zip" "/tmp/epmkey.txt"
+
 exit 0
