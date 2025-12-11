@@ -3,7 +3,7 @@
 logandmetadir="/Library/Logs/Microsoft/IntuneScripts/"
 log="$logandmetadir/cyberarkagentuninstall.log"
 scriptname="CyberArk Agent Uninstall"
-securetoken="8675309"
+securetoken="######"
 
 if [ -d $logandmetadir ]; then
     echo "# $(date) | Log directory already exists - $logandmetadir"
